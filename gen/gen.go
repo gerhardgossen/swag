@@ -273,6 +273,8 @@ type swaggerInfo struct {
 	Schemes     []string
 	Title       string
 	Description string
+
+	AuthorizationURL string
 }
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
